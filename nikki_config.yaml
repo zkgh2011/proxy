@@ -22,10 +22,10 @@ proxies:
 mixed-port: 7890
 allow-lan: true
 bind-address: "*"
-ipv6: false
+ipv6: true
 unified-delay: true
 tcp-concurrent: true
-log-level: warning
+log-level: error
 global-client-fingerprint: chrome
 keep-alive-idle: 600
 keep-alive-interval: 15
@@ -73,7 +73,7 @@ dns:
   enable: true
   cache-algorithm: arc
   listen: 0.0.0.0:1053
-  ipv6: false
+  ipv6: true
   respect-rules: true
   enhanced-mode: fake-ip
   fake-ip-range: 28.0.0.1/8
